@@ -10,12 +10,22 @@
     <div class="container">
         <button class="back-button">Back</button>
         <h2 class="title">Topics</h2>
-        <select class="topic-select">
-            <option>Select the topic</option>
-            <option>Topic 1</option>
-            <option>Topic 2</option>
-            <option>Topic 3</option>
-        </select>
+
+        <fieldset class="topic-select">
+            <legend>topic-select (Check all that apply)</legend>
+              <label class="op" for="1"><input id="1" type="checkbox" name="1">Bharat Run</label><br>
+              <label class="op" for="2"><input id="2" type="checkbox" name="2">Space Ninja</label><br>
+              <label class="op" for="3"><input id="3" type="checkbox" name="3">Fruit Mandi</label><br>
+              <label class="op" for="4"><input id="4" type="checkbox" name="4">Rummy</label>
+               
+        </fieldset>
+        
+
+
+
+
+
+        
         <input type="text" class="title-input" placeholder="Enter Title">
         <textarea class="message-input" placeholder="Enter Message"></textarea>
         <button class="send-button">
